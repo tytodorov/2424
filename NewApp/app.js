@@ -14,7 +14,7 @@
         });
     };
 
-    if (window.cordova) {
+    if (window.cordova) {e2e
         document.addEventListener('deviceready', function() {
             if (navigator && navigator.splashscreen) {
                 navigator.splashscreen.hide();
